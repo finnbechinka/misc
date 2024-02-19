@@ -70,3 +70,9 @@ sudo install lazygit /usr/local/bin
 sudo apt install neofetch
 printf '\nneofetch' >> ~/.bashrc
 ```
+
+### tab auto complete case insensitive
+
+```bash
+echo 'set completion-ignore-case On' >> ~/.inputrc
+```
