@@ -75,5 +75,6 @@ printf '\nneofetch' >> ~/.bashrc
 ```bash
 echo 'set completion-ignore-case On' >> ~/.inputrc
 
+sudo apt install -y gcc make build-essential libssl-dev libffi-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev liblzma-dev
 curl https://pyenv.run | bash
 ```
