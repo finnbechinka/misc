@@ -1,8 +1,8 @@
 [language-server.pylsp.config.pylsp]
 plugins.black.enabled = true
-plugins.pylint.enabled = true
+plugins.pylint.enabled = false
 plugins.pyflakes.enabled = false
-plugins.pyls_mypy.enabled = true
+plugins.pyls_mypy.enabled = false
 plugins.pyls_mypy.live_mode = false
 plugins.isort.enabled = true
 plugins.rope_autoimport.enabled = true
