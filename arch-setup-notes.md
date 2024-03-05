@@ -4,13 +4,13 @@
 [gh guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=windows)
 
 ```bash
-// copy key to wsl
+# copy key to wsl
 cp -r /mnt/c/Users/conta/.ssh ~/.ssh
 chmod 600 ~/.ssh/id_ed25519
 
 sudo pacman -S openssh
 
-// other gitstuff
+# other gitstuff
 git config --global user.name "finnbechinka"
 git config --global user.email "contact@bechinka.eu"
 ```
@@ -86,4 +86,7 @@ printf '\nfastfetch' >> ~/.bashrc
 printf '\nset completion-ignore-case On' >> ~/.inputrc
 
 sudo pacman -S pyenv
+
+# golang
+sudo pacman -S go gopls revive staticcheck
 ```
